@@ -6,7 +6,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            bindings = 
+            bindings = <
                 &bt BT_CLR  &kp F13  &kp F14  &kp F15
             >;
             sensor-bindings = <&inc_dec_kp UP DOWN>;
