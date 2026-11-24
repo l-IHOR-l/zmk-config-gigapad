@@ -18,7 +18,5 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_blе
-    shield: gigapad
   - board: seeeduino_xiao_ble
-    shield: settings_reset
+    shield: gigapad

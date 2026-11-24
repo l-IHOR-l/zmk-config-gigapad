@@ -2,7 +2,7 @@
     chosen {
         zmk,kscan = &default_kscan;
     };
-
+    zmk,matrix-transform = &default_transform;
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
         label = "default_kscan";
@@ -12,5 +12,7 @@
             <&xiao_d 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
             <&xiao_d 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
             <&xiao_d 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        };
     };
 };
+
